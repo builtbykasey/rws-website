@@ -76,26 +76,30 @@ nav a {
 }
 
 #login {
-  background-color: #F44A66;
-  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .35);
+  /*background-color: #F44A66;*/
+  /*box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .35);*/
+  border: 1px solid white;
+  margin-left: 1rem;
 }
 
 #login a {
   margin-right: 0;
-  padding: .8rem 1.5rem;
+  /*padding: .8rem 1.5rem;*/
 }
 
  #login a:hover, #login a:focus {
   border-bottom: none;
   text-decoration: none;
+  color: #F44A66;
 }
 
 #login:hover {
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .15);
+  /*box-shadow: 0 20px 30px 0 rgba(0, 0, 0, .15);
   -webkit-transform: translate(0px, -1px);
   -ms-transform: translate(0px, -1px);
-  transform: translate(0px, -1px);
+  transform: translate(0px, -1px);*/
   text-decoration: none;
+  border: 1px solid #F44A66;
 }
 
 /* navbar-transparent */
@@ -148,8 +152,8 @@ nav a {
   height: 100vh;
   padding: 0;
   text-align: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/bannerfinal.jpg');
-  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/bannerfinal.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero.jpg');
+  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero.jpg');
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .35);
   opacity: 1;
 }
@@ -282,29 +286,35 @@ nav a {
 }
 
 .services-heading {
-  display: block;
-  padding-top: 1rem;
-  margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 0;
-  font-size: 1.5rem;
+  /*display: block;*/
+  /*padding-top: 1rem;*/
+  margin: 0 auto;
+  font-size: 1.75rem;
   font-weight: bolder;
   text-align: center;
   letter-spacing: 1px;
   color: #015FA3;
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
-.services-div-block p {
+.service-icon {
+  font-size: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: #f44a66;
+}
+
+/*.services-div-block p {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 1rem;
   margin-bottom: 0;
-}
+}*/
 
 .technology-section {
-  width: 95%;
   padding-top: 1rem;
   padding-bottom: 0;
   background-color: #013255;
@@ -355,8 +365,8 @@ nav a {
 .divider-section.first-divider {
   margin-top: 0;
   padding: 3rem 0;
-  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/family.jpg');
-  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/family.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/family1.jpg');
+  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/family1.jpg');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -377,8 +387,8 @@ nav a {
 
 .divider-section.third-divider {
   padding: 3rem 0;
-  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/team-1.jpg');
-  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/team-1.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/team.jpg');
+  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/team.jpg');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -399,8 +409,8 @@ nav a {
 
 .divider-section.final-divider {
   padding: 3rem 0;
-  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/divider.jpg');
-  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/divider.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/flowers.jpg');
+  background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/flowers.jpg');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -462,50 +472,27 @@ nav a {
   background-color: #f9f9f9;
 }
 
-.process-wrapper {
-  padding-right: 75px;
-  padding-left: 75px;
-  padding-top: 0;
-  width: 100%;
-}
-
 .process-row {
-  width: 100%;
   margin-bottom: 3.125rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 2rem 1rem;
   background-color: #fff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .33);
+  display: flex;
+  align-items: center;
 }
 
 .process-row:hover {
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .33);
 }
 
-.process-row-wrapper {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-}
-
-.process-content-box {
-  padding-left: 2.5rem;
-  padding-right: 3rem;
-}
-
-.process-content-box.middle {
-  padding-left: 2.5rem;
-  padding-right: 3rem;
-}
-
-.process-image-div {
+/*.process-image-div {
   width: 100%;
   height: auto;
-}
+}*/
 
 .process-row img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .soft-heading {
@@ -628,7 +615,7 @@ nav a {
 }
 
 .container.team {
-  width: 100%;
+  /*width: 100%;*/
   padding: 1rem;
   background-color: #fff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
@@ -771,6 +758,26 @@ nav a {
   color: #015FA3;
 }
 
+#contact {
+  text-align: center;
+}
+
+#contact .fa {
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #333;
+}
+
+#contact .fa:hover {
+  color: #F44A66;
+}
+
 .contact-div-block p {
   width: 100%;
   font-size: 1.1rem;
@@ -818,6 +825,11 @@ nav a {
   color: #9d9d9d;
   opacity: .8;
   line-height: 1.65;
+}
+
+.footer-nav ul li a:hover {
+  color: #F44A66;
+
 }
 
 #footer .location {
