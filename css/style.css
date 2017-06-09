@@ -1138,7 +1138,7 @@ nav a {
         /*width: 65%;*/
         margin-left: auto;
         margin-right: auto;
-        min-height: 255px;
+        min-height: 260px;
       padding: .5rem;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
       -webkit-transition: all 300ms ease;
