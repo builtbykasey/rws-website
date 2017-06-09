@@ -1135,9 +1135,10 @@ nav a {
     }
 
     .team-member-div-block {
-        width: 65%;
+        /*width: 65%;*/
         margin-left: auto;
         margin-right: auto;
+        min-height: 250px;
       padding: 7px 7px 11px;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
       -webkit-transition: all 300ms ease;
@@ -1184,6 +1185,9 @@ nav a {
 
     .contact-div-block {
         margin-bottom: 1rem;
+        max-width: 355px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Footer */
