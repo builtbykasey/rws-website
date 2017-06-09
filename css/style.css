@@ -815,6 +815,23 @@ nav a {
 
     /* Hero */
 
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 0;
+        text-align: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
+        background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
+        box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .35);
+        opacity: 1;
+    }
+
     .hero h1 {
       font-size: 2rem;
       font-weight: bold;
@@ -874,56 +891,56 @@ nav a {
     .divider-section.first-divider {
       margin-top: 0;
       padding: 3rem 0;
-      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/family1.jpg');
-      background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/family1.jpg');
+      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/family1.jpg');
+      background-image: linear-gradient(180deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/family1.jpg');
       background-position: 0px 0px, 0px 0px;
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
       background-attachment: scroll;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }
-/*
+
     .divider-section.second-divider {
       padding: 3rem 0;
-      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/ipad.jpg');
-      background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/ipad.jpg');
+      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/ipad.jpg');
+      background-image: linear-gradient(180deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/ipad.jpg');
       background-position: 0px 0px, 0px 0px;
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
-      background-attachment: scroll, fixed;
+      background-attachment: scroll;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.third-divider {
       padding: 3rem 0;
-      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/team.jpg');
-      background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/team.jpg');
+      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/team.jpg');
+      background-image: linear-gradient(180deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/team.jpg');
       background-position: 0px 0px, 0px 0px;
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
-      background-attachment: scroll, fixed;
+      background-attachment: scroll;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.fourth {
       padding: 3rem 0;
-      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/retiredcar.jpeg');
-      background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/retiredcar.jpeg');
+      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/retiredcar.jpeg');
+      background-image: linear-gradient(180deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/retiredcar.jpeg');
       background-position: 0px 0px, 0px 0px;
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
-      background-attachment: scroll, fixed;
+      background-attachment: scroll;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.final-divider {
       padding: 3rem 0;
-      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/flowers2.jpg');
-      background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), url('../assets/flowers2.jpg');
+      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/flowers2.jpg');
+      background-image: linear-gradient(180deg, rgba(1, 95, 163, .8), rgba(1, 95, 163, .8)), url('../assets/flowers2.jpg');
       background-position: 0px 0px, 0px 0px;
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
-      background-attachment: scroll, fixed;
+      background-attachment: scroll;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }
 
@@ -952,7 +969,7 @@ nav a {
     }
 
     .divider-heading-last {
-      color: #fff;
+      color: #F44A66;
       font-size: 3rem;
       text-align: center;
       letter-spacing: 2px;
@@ -978,7 +995,7 @@ nav a {
       margin-left: 0;
       margin-right: 0;
       margin-bottom: 0;
-    }*/
+    }
 
     /* About */
 
@@ -988,6 +1005,8 @@ nav a {
 
     .about-container {
         padding: 4rem 0 4rem 0;
+        box-shadow: none;
+        width: 100%;
     }
 
     /* Services */
