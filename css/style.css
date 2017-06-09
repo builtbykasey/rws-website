@@ -102,6 +102,7 @@ nav a {
 }
 
 .navbar-transparent .navbar-nav > li > a {
+    color: #fff;
   letter-spacing: 1px;
   margin-right: 2rem;
   padding-left: 0;
@@ -110,7 +111,7 @@ nav a {
 }
 
 .navbar-transparent .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: white;
+    color: #fff;
     background: transparent;
     border-bottom: 2px solid #F44A66;
 }
