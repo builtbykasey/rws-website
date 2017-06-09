@@ -1131,15 +1131,15 @@ nav a {
     }
 
     .team-member {
-      padding: .5rem 1rem;
+      padding: .5rem .5rem;
     }
 
     .team-member-div-block {
         /*width: 65%;*/
         margin-left: auto;
         margin-right: auto;
-        min-height: 250px;
-      padding: 7px 7px 11px;
+        min-height: 255px;
+      padding: .5rem;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
       -webkit-transition: all 300ms ease;
       transition: all 300ms ease;
