@@ -24,7 +24,7 @@ html, body {
 }
 
 .fa-bars {
-    color: #F44A66;
+    color: #015FA3;
     font-size: 2rem;
 }
 
@@ -95,6 +95,11 @@ nav a {
 
 .navbar-brand .transparent-logo {
   height: 3rem;
+}
+
+.navbar-transparent .fa-bars {
+    color: #fff;
+    font-size: 2rem;
 }
 
 .navbar-transparent .navbar-brand .default-logo {
@@ -1098,16 +1103,15 @@ nav a {
     /* Team */
 
     .team-section {
-      width: 100%;
+      /*width: 90%;*/
       padding: 0;
       background-color: #f9f9f9;
-      -webkit-transform: translate(0px, -1px);
-      -ms-transform: translate(0px, -1px);
-      transform: translate(0px, -1px);
+      border: none;
+      transform: none;
     }
 
     .container.team {
-      padding: 4rem  1rem 2rem 1rem;
+      padding: 4rem  0 2rem 0;
       background-color: #fff;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }
@@ -1117,14 +1121,17 @@ nav a {
     }
 
     .team-heading {
-      width: 100%;
+      width: 90%;
+      padding: 0;
     }
 
     .team-row {
       display: block;
-      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
       margin-bottom: 1rem;
-      padding: 0 1rem;
+      padding: 0;
+      width: 90%;
     }
 
     .team-row a {
@@ -1132,14 +1139,14 @@ nav a {
     }
 
     .team-member {
-      padding: .5rem .5rem;
+      padding: .5rem 0;
     }
 
     .team-member-div-block {
-        /*width: 65%;*/
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
-        min-height: 260px;
+        min-height: 280px;
       padding: .5rem;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
       -webkit-transition: all 300ms ease;
