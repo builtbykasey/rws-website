@@ -825,6 +825,11 @@ nav a {
 
     /* Nav */
 
+    .navbar {
+        width: 90%;
+        padding: 0;
+    }
+
     .navbar-brand .transparent-logo {
       height: 2rem;
     }
@@ -841,7 +846,7 @@ nav a {
         background-attachment: scroll;
         background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
         background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
-        box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .35);
+        box-shadow: 0 4px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .hero h1 {
@@ -890,11 +895,11 @@ nav a {
       background-size: contain;
       background-repeat: no-repeat;
       background-attachment: scroll;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section:hover {
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.first-divider {
@@ -906,7 +911,7 @@ nav a {
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
       background-attachment: scroll;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.second-divider {
@@ -917,7 +922,7 @@ nav a {
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
       background-attachment: scroll;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.third-divider {
@@ -928,7 +933,7 @@ nav a {
       background-position: 45%;
       background-repeat: repeat, no-repeat;
       background-attachment: scroll;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.fourth {
@@ -939,7 +944,7 @@ nav a {
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
       background-attachment: scroll;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section.final-divider {
@@ -950,11 +955,11 @@ nav a {
       background-size: auto, cover;
       background-repeat: repeat, no-repeat;
       background-attachment: scroll;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-section:hover {
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .divider-heading-last {
@@ -965,6 +970,7 @@ nav a {
 
     .about-section {
         padding: 0;
+        box-shadow: none;
     }
 
     .about-container {
@@ -982,10 +988,11 @@ nav a {
     .services-div-block {
         margin-top: 1.5rem;
         padding: 0;
+        min-height: 256px;
     }
 
     .services-div-block:hover {
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .technology-section {
@@ -1021,10 +1028,11 @@ nav a {
       display: flex;
       flex-direction: column;
       align-items: center;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }
 
     .process-row:hover {
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .33);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .33);
     }
 
     .process-content-box {
@@ -1077,27 +1085,26 @@ nav a {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1rem;
-      padding: 0;
-      width: 90%;
+      padding: .5rem;
+      width: 100%;
     }
 
     .team-member {
-      padding: .5rem 0;
+      padding: .5rem .5rem;
     }
 
     .team-member-div-block {
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         min-height: 280px;
       padding: .5rem;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-      -webkit-transition: all 300ms ease;
-      transition: all 300ms ease;
+      transition: none;
     }
 
     .team-member-div-block:hover {
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      box-shadow: 0 1px 0px 0 rgba(0, 0, 0, .35);
     }
 
     .team-title-block {
