@@ -19,13 +19,20 @@ html, body {
   margin-right: 0;
 }
 
-.navbar-toggle {
-    margin: .15rem 0 0 0;
-}
-
 .fa-bars {
     color: #015FA3;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.navbar-default .navbar-toggle {
+    padding: .15rem .35rem;
+    margin-top: .7rem;
+    border: none;
+}
+
+.navbar-collapse {
+    background-color: none;
 }
 
 .navbar-default {
@@ -99,7 +106,7 @@ nav a {
 
 .navbar-transparent .fa-bars {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 
 .navbar-transparent .navbar-brand .default-logo {
@@ -1348,6 +1355,7 @@ nav a {
 
     .technology-section {
         padding: 0;
+        width: 90%;
     }
 
     .technology-heading {
@@ -1376,7 +1384,7 @@ nav a {
     .tech-feature-h4 {
         text-align: center;
         font-size: 2rem;
-        width: 80%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1384,19 +1392,23 @@ nav a {
     /* Process */
     .process-section {
       width: 100%;
-      padding-top: 8rem;
-      padding-bottom: 6rem;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
       padding-left: 0;
       padding-right: 0;
       background-color: #f9f9f9;
     }
 
     .process-row {
+        width: 80%;
       margin-bottom: 3.125rem;
+      margin-left: auto;
+      margin-right: auto;
       padding: 2rem 1rem;
       background-color: #fff;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .33);
       display: flex;
+      flex-direction: column-reverse;;
       align-items: center;
     }
 
@@ -1406,6 +1418,18 @@ nav a {
 
     .process-content-box {
         width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .process-row.middle {
+        flex-direction: column;
+    }
+
+    .process-content-box.middle {
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
     }
 
     .process-heading {
@@ -1468,7 +1492,7 @@ nav a {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1rem;
-      padding: 0 4rem;
+      padding: 0 6rem;
       width: 100%;
     }
 
@@ -1522,6 +1546,7 @@ nav a {
         max-width: 355px;
         margin-left: auto;
         margin-right: auto;
+        padding: 1rem;
     }
 
     .contact-heading {
@@ -1531,6 +1556,10 @@ nav a {
       text-align: center;
       letter-spacing: 2px;
       color: #015FA3;
+    }
+
+    .red-border-small {
+      margin-bottom: 1rem;
     }
 
     #contact .fa {
@@ -1551,11 +1580,11 @@ nav a {
 
     .contact-div-block p {
       width: 100%;
-      font-size: 1rem;
+      font-size: .85rem;
       font-weight: bold;
       margin-right: auto;
       margin-left: auto;
-      padding-bottom: 1rem;
+      padding-bottom: .5rem;
       margin-bottom: 0;
     }
 
@@ -1573,7 +1602,7 @@ nav a {
     }
 
     .city-image {
-      padding: 1rem;
+      padding: 0 0 1rem 0;
     }
 
     .city-image img {
