@@ -25,7 +25,7 @@ html, body {
 
 .fa-bars {
     color: #015FA3;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navbar-default {
@@ -1473,7 +1473,7 @@ nav a {
     }
 
     .team-member {
-      padding: .5rem .5rem;
+      padding: 1rem;
     }
 
     .team-member-div-block {
@@ -1513,11 +1513,71 @@ nav a {
       padding-bottom: 4rem;
     }
 
+    .contact-wrapper {
+        margin-top: 1.5rem;
+    }
+
     .contact-div-block {
         margin-bottom: 1rem;
         max-width: 355px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .contact-heading {
+      padding-top: 0;
+      font-size: 1.5rem;
+      font-weight: bolder;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #015FA3;
+    }
+
+    #contact .fa {
+      padding-bottom: 1rem;
+      padding-right: .75rem;
+      font-size: 1.5rem;
+      color: #015FA3;
+    }
+
+    #contact a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    #contact .fa:hover {
+      color: #F44A66;
+    }
+
+    .contact-div-block p {
+      width: 100%;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-right: auto;
+      margin-left: auto;
+      padding-bottom: 1rem;
+      margin-bottom: 0;
+    }
+
+    .fa-phone, .fa-map-marker {
+      color: #015FA3;
+    }
+
+    .contact-div-block a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .contact-div-block a:hover {
+      color: #F44A66;
+    }
+
+    .city-image {
+      padding: 1rem;
+    }
+
+    .city-image img {
+      height: 125px;
     }
 
     /* Footer */
