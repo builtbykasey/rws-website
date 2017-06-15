@@ -824,29 +824,22 @@ nav a {
 @media only screen and (max-width: 767px) {
 
     /* Nav */
-
-    body {
-        width: 100%;
-    }
-
     nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar, .navbar-transparent, .navbar-fixed-top, .animated, .fadeIn {
+        width: 90%;
+        padding: 0;
+    }
+
+    /*.navbar {
         width: 100%;
-    }
-
-    .navbar .navbar-transparent .navbar-fixed-top .animated .fadeIn {
-        width: 90%;
-        padding: 0;
-        margin: 0;
-        padding: 0;
-    }
-
-    .navbar {
-        width: 90%;
-        padding: 0;
-        /*margin-left: auto;*/
-        /*margin-right: auto;*/
-        margin: 0;
-    }
+        padding: 0 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }*/
 
     .navbar-brand .transparent-logo {
       height: 2rem;
