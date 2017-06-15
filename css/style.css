@@ -1492,12 +1492,12 @@ nav a {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 1rem;
-      padding: 0 6rem;
+      padding: 0 1rem;
       width: 100%;
     }
 
     .team-member {
-      padding: 1rem;
+      padding: .5rem;
     }
 
     .team-member-div-block {
