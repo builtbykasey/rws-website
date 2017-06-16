@@ -5,7 +5,7 @@ html, body {
 
 /* Header */
 
-.hero-team-page {
+.hero-login-page {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -18,7 +18,7 @@ html, body {
   opacity: 1;
 }
 
-.hero-team-page h1 {
+.hero-login-page h1 {
   color: #fff;
   padding-top: 15rem;
   font-size: 3rem;
@@ -28,7 +28,7 @@ html, body {
     margin-top: 0;
 }
 
-/* Bio Section */
+/* Login Section */
 
 .login-page-section {
   background-color: #f9f9f9;
@@ -69,59 +69,9 @@ html, body {
     font-weight: bold;
 }
 
-.login-button {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.login-row {
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-}
-
-.features {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.features p {
-    font-size: 1.5rem;
-    text-align: left;
-}
-
-.solution {
-    padding-left: 1rem;
-}
-
-.trouble-row {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem;
-}
-
-.trouble-heading {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.trouble-text {
-    font-size: 1.25rem;
-}
-
-.heading-credentials {
-  margin-top: 0px;
-  font-size: 1.5rem;
-  line-height: 36px;
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-.red-border-team {
+.red-border-login {
   display: block;
-  width: 8rem;
+  width: 12rem;
   margin-right: auto;
   margin-bottom: 1rem;
   margin-top: .5rem;
@@ -143,82 +93,45 @@ html, body {
   font-size: 1.5rem;'
 }
 
-
-.headshot-block {
-  padding: 7px 7px 2px;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
+.login-button {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.headshot {
-    width: 100%;
-    height: auto;
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
+.login-row {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
 }
 
 .features {
-  padding-right: 1.5rem;
-  padding-left: .5rem;
-  text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 
-.featured-list {
-  display: flex;
-  justify-content: center;
-  padding: 4rem 0 0 0;
-  text-transform: uppercase;
+.features p {
+    font-size: 1.75rem;
+    text-align: left;
 }
 
-.featured-list h1 {
-  margin: 1rem 1rem;
+.trouble-row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
 }
 
-.featured-logo {
-  height: 40px;
-  margin: 1rem 1.5rem;
+.trouble-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
-.featured-list-bruce {
-  display: flex;
-  justify-content: center;
-  padding: 3rem 0 0 0;
-  text-transform: uppercase;
+.trouble-text {
+    font-size: 1.25rem;
 }
 
-.featured-logo-bruce {
-  height: 60px;
-  margin: 1rem 1.5rem;
-}
-
-.media-contact-container {
-    width: 70%;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  padding: 2rem;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .33);
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-  background-color: #fff;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, .03);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-}
-
-#media-text {
-  display: flex;
-  align-items: center;
-}
-
-#media-text p {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.speaking-image {
-
+.solution {
+    padding-left: 1rem;
 }
 
 
@@ -280,7 +193,7 @@ html, body {
       letter-spacing: 1px;
     }
 
-    .red-border-team {
+    .red-border-login {
       margin-bottom: 1.25rem;
     }
 
@@ -415,7 +328,7 @@ html, body {
       letter-spacing: 1px;
     }
 
-    .red-border-team {
+    .red-border-login {
       margin-bottom: 1.25rem;
     }
 
