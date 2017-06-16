@@ -412,13 +412,12 @@ html, body {
     }
 
     .team-page-headshot {
-      padding: 0 3.5rem;
+      padding: 0 12rem;
       margin-bottom: 2rem;
     }
 
     .headshot-block {
-        /*height: 400px;*/
-        width: 300px;
+        /*width: 300px;*/
         margin-left: auto;
         margin-right: auto;
       padding: 7px 7px 2px;
@@ -436,25 +435,24 @@ html, body {
       display: flex;
       justify-content: center;
       padding: .5rem 0;
-    }
+    }*/
 
     .logos {
-      height: 30px;
+      height: 40px;
       margin: 0 .5rem;
-    }*/
+    }
 
     .bio {
       padding: 0 1rem;
     }
 
-    .featured-list {
+    /*.featured-list {
       display: flex;
-      /*flex-direction: column;*/
       justify-content: center;
       align-items: center;
       padding: 3rem 0;
       text-transform: uppercase;
-    }
+    }*/
 
     .featured-list h1 {
       margin: 1rem 1rem;
@@ -492,9 +490,8 @@ html, body {
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
     }*/
 
-    #media-text {
+    /*#media-text {
       display: flex;
-      /*flex-direction: column;*/
       align-items: center;
     }
 
@@ -509,6 +506,6 @@ html, body {
 
     .speaking-image {
 
-    }
+    }*/
 
 }
