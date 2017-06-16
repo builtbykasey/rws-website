@@ -335,6 +335,10 @@ html, body {
     #media-text p {
       font-size: 1.25rem;
       text-align: center;
+      margin-bottom: 2rem;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .speaking-image {
@@ -349,5 +353,162 @@ html, body {
 /* Tablet and Small Screens */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Nav */
+
+    .navbar-brand .transparent-logo {
+      height: 2rem;
+    }
+
+    .navbar-default {
+      background-color: rgb(255,255,255);
+    }
+
+    /* Hero */
+
+    .hero-team-page {
+        height: 280px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/team-2.jpg');
+        background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/team-2.jpg');
+        box-shadow: 0 4px 0px 0 rgba(0, 0, 0, .35);
+    }
+
+    .hero-team-page h1 {
+        padding-top: 10rem;
+        font-size: 2rem;
+      letter-spacing: 1px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .heading-div-team-page {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    .team-page-heading {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .heading-credentials {
+      font-size: 1.5rem;
+      line-height: 36px;
+      letter-spacing: 1px;
+    }
+
+    .red-border-team {
+      margin-bottom: 1.25rem;
+    }
+
+    .team-position-title {
+      font-size: 1.75rem;'
+    }
+
+    .team-page-headshot {
+      padding: 0 3.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .headshot-block {
+        /*height: 400px;*/
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      padding: 7px 7px 2px;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+      -webkit-transition: all 300ms ease;
+      transition: all 300ms ease;
+    }
+
+    /*.headshot {
+        width: 100%;
+        height: auto;
+    }*/
+
+    /*.logo-list {
+      display: flex;
+      justify-content: center;
+      padding: .5rem 0;
+    }
+
+    .logos {
+      height: 30px;
+      margin: 0 .5rem;
+    }*/
+
+    .bio {
+      padding: 0 1rem;
+    }
+
+    .featured-list {
+      display: flex;
+      /*flex-direction: column;*/
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 0;
+      text-transform: uppercase;
+    }
+
+    .featured-list h1 {
+      margin: 1rem 1rem;
+      font-size: 1.75rem;
+    }
+
+    .featured-logo {
+      height: 30px;
+      margin: 1rem 1.5rem;
+    }
+
+    .featured-list-bruce {
+      display: flex;
+      justify-content: center;
+      padding: 4rem 0 0 0;
+      text-transform: uppercase;
+    }
+
+    .featured-logo-bruce {
+      height: 60px;
+      margin: 1rem 1.5rem;
+    }
+
+    /*.media-contact-container {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 2rem;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .33);
+      -webkit-transition: all 300ms ease;
+      transition: all 300ms ease;
+      background-color: #fff;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, .03);
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+    }*/
+
+    #media-text {
+      display: flex;
+      /*flex-direction: column;*/
+      align-items: center;
+    }
+
+    #media-text p {
+      font-size: 1.25rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .speaking-image {
+
+    }
 
 }
