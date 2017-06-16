@@ -345,6 +345,29 @@ html, body {
 
     }
 
+    /* Footer */
+    #footer {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .footer-row {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-nav {
+      text-align: center;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: .5rem;
+    }
+
+    .footer-nav ul li a:hover {
+      color: #fff;
+    }
+
+
 
 
 
@@ -378,7 +401,7 @@ html, body {
 
     .hero-team-page h1 {
         padding-top: 10rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
       letter-spacing: 1px;
       width: 100%;
       margin-left: auto;
@@ -412,7 +435,7 @@ html, body {
     }
 
     .team-page-headshot {
-      padding: 0 12rem;
+      padding: 0 14rem;
       margin-bottom: 2rem;
     }
 
@@ -444,6 +467,10 @@ html, body {
 
     .bio {
       padding: 0 1rem;
+    }
+
+    .bio p {
+        font-size: 1.15rem;
     }
 
     /*.featured-list {
@@ -507,5 +534,27 @@ html, body {
     .speaking-image {
 
     }*/
+
+    /* Footer */
+    #footer {
+        padding: 1rem 0 1rem 0;
+    }
+
+    .footer-row {
+        text-align: center;
+        width: 90%;
+    }
+
+    .footer-nav {
+      text-align: center;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: .5rem;
+    }
+
+    .footer-nav ul li a:hover {
+      color: #fff;
+    }
 
 }
