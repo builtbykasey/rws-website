@@ -120,7 +120,6 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-top: .5rem;
-
 }
 
 .login-row {
@@ -217,7 +216,6 @@ html, body {
         width: 140px;
         margin-right: 1rem;
         letter-spacing: 1px;
-        width: 100px;
     }
 
     .heading-div-login {
@@ -254,6 +252,10 @@ html, body {
 
     .login-page-subheading {
       font-size: 1.25rem;'
+    }
+
+    .login-button {
+        width: 150px;
     }
 
 }
@@ -301,7 +303,6 @@ html, body {
         width: 140px;
         margin-right: 1rem;
         letter-spacing: 1px;
-        width: 100px;
     }
 
     .login-page-section {
@@ -339,6 +340,10 @@ html, body {
 
     #mywealthsync {
         padding-top: 0;
+    }
+
+    .login-button {
+        width: 150px;
     }
 
     .login-row p {
