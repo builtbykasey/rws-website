@@ -217,6 +217,7 @@ html, body {
         width: 140px;
         margin-right: 1rem;
         letter-spacing: 1px;
+        width: 100px;
     }
 
     .heading-div-login {
@@ -300,6 +301,7 @@ html, body {
         width: 140px;
         margin-right: 1rem;
         letter-spacing: 1px;
+        width: 100px;
     }
 
     .login-page-section {
