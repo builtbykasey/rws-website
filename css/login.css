@@ -8,7 +8,7 @@ html, body {
 .hero-login-page {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 0% 150%;
   background-attachment: fixed;
   height: 375px;
   text-align: center;
