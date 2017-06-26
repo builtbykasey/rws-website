@@ -135,7 +135,7 @@ html, body {
 }
 
 .logos-bruce {
-  height: 25px;
+  height: 30px;
   /*margin: 0 .5rem;*/
 }
 
@@ -568,5 +568,19 @@ html, body {
     .speaking-image {
 
     }
+
+}
+
+/* Logo under headshot for MW & BU */
+
+@media only screen and (min-width: 992px) and (max-width: 1159px) {
+
+  .logos {
+    height: 30px;
+  }
+
+  .logos-bruce {
+    height: 25px;
+  }
 
 }
