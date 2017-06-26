@@ -125,7 +125,6 @@ html, body {
 
 .logos {
   height: 35px;
-  /*margin: 0 .5rem;*/
 }
 
 .logo-list-bruce {
@@ -136,7 +135,6 @@ html, body {
 
 .logos-bruce {
   height: 30px;
-  /*margin: 0 .5rem;*/
 }
 
 .bio {
@@ -270,37 +268,11 @@ html, body {
     }
 
     .team-page-headshot {
-      /*padding: 0 3.5rem;*/
       margin-bottom: 2rem;
       max-width: 18rem;
       margin-left: auto;
       margin-right: auto;
     }
-
-    /*.headshot-block {
-      padding: 7px 7px 2px;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-      -webkit-transition: all 300ms ease;
-      transition: all 300ms ease;
-    }
-
-    .headshot {
-        width: 100%;
-        height: auto;
-        -webkit-transition: all 300ms ease;
-        transition: all 300ms ease;
-    }
-
-    .logo-list {
-      display: flex;
-      justify-content: center;
-      padding: .5rem 0;
-    }
-
-    .logos {
-      height: 30px;
-      margin: 0 .5rem;
-    }*/
 
     .logo-list-bruce {
       display: flex;
@@ -499,14 +471,6 @@ html, body {
         font-size: 1.15rem;
     }
 
-    /*.featured-list {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 3rem 0;
-      text-transform: uppercase;
-    }*/
-
     .featured-list h1 {
       margin: 1rem 1rem;
       font-size: 1.75rem;
@@ -548,12 +512,6 @@ html, body {
       border-width: 1px;
       border-color: rgba(0, 0, 0, .03);
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-    }
-
-    #media-text {
-      /*display: flex;*/
-      /*align-items: center;*/
-      /*justify-content: center;*/
     }
 
     #media-text p {
