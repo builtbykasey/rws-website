@@ -62,6 +62,7 @@ nav a {
   padding: .5rem 0;
   margin-right: 1.5rem;
   font-size: .8rem;
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
