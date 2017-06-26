@@ -5,18 +5,18 @@ html, body {
 /* Navbar */
 .navbar {
   margin-top: 0;
-  padding: .8rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .navbar-brand {
   padding-left: 0;
   padding-bottom: 0;
-  padding-top: .8rem;
+  padding-top: 0;
   height: auto;
 }
 
 .navbar-right {
-  margin-right: 0;
+  margin-right: .75rem;
 }
 
 .fa-bars {
@@ -49,7 +49,7 @@ html, body {
 .navbar-brand .default-logo {
   color: #333;
   margin-bottom: 0;
-  height: 1.5rem;
+  height: 2.25rem;
 }
 
 nav a {
@@ -59,8 +59,9 @@ nav a {
 .navbar-default .navbar-nav > li > a {
   color: #333;
   letter-spacing: 1px;
-  padding: .8rem 0;
-  margin-right: 2rem;
+  padding: .5rem 0;
+  margin-right: 1.5rem;
+  font-size: .8rem;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -74,9 +75,17 @@ nav a {
 
 .navbar-default #login a {
   color: #F44A66;
+  padding: .4065rem .5rem;
 }
 
-.navbar-default #login a:hover, #login a:focus {
+.navbar-default #login a:focus, #login a:active {
+ border-bottom: none;
+ text-decoration: none;
+ color: #F44A66;
+ background: transparent;
+}
+
+.navbar-default #login a:hover {
  border-bottom: none;
  text-decoration: none;
  color: #fff;
@@ -95,9 +104,8 @@ nav a {
 }
 
 .navbar-transparent .navbar-brand .transparent-logo {
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
   margin-left: 0;
+  height: 3.25rem;
 }
 
 .navbar-brand .transparent-logo {
@@ -119,7 +127,7 @@ nav a {
   margin-right: 2rem;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -130,7 +138,7 @@ nav a {
 
 .navbar-transparent #login {
   border: 1px solid white;
-  margin-top: .67rem;
+  margin-top: .19rem;
 }
 
 #login a {
@@ -138,7 +146,14 @@ nav a {
   padding: .75rem;
 }
 
- #login a:hover, #login a:focus {
+#login a:focus, #login a:active {
+  border-bottom: none;
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+}
+
+#login a:hover {
   border-bottom: none;
   text-decoration: none;
   color: #F44A66;
@@ -148,7 +163,6 @@ nav a {
   text-decoration: none;
   border: 1px solid #F44A66;
 }
-
 
 /* Hero */
 .hero {
